@@ -1,0 +1,20 @@
+
+
+@media (max-width:799px){
+    .custom-button{
+        height: 50px ;
+        font-size: 30px;
+        padding:0 25px;
+        border-radius: 50px;
+        margin: 0 0 10px 0;
+    }
+}
+
+@media (min-width: 799px){
+    .custom-button{
+        height:80px ;
+        font-size: 30px;
+        padding:10px 25px;
+        border-radius: 50px;
+    }
+}

@@ -1,0 +1,26 @@
+.landing{
+    width: 80%;
+    background-color: rebeccapurple;
+}
+
+@media (max-width: 799px){
+    .heading{
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    .paragraphs{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 799px) {
+    .heading{
+        font-size: 50px;
+        font-weight: 900;
+    }
+    
+    .paragraphs{
+        font-size: 30px;
+    }
+}
