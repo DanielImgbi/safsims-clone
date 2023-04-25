@@ -36,7 +36,7 @@ const Landing = () => {
           
           <Row xs={1} md={1}  xl={2}>
              <Col>
-                {/* <MyCarousel/> */}
+                <MyCarousel/>
              </Col>
           </Row>
     </Container>

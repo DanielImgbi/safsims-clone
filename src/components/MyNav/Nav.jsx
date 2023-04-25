@@ -9,7 +9,7 @@ const Nav = () => {
              <div className="nav-brand text-black h1 font-weight-bold">
                 <img src="public/safsims-imagery/dark-logo.svg" alt="" />
             </div>
-            <div className="my-nav-ul-con nav-item">
+            <div className="my-nav-ul-con nav-item  ">
                 <ul className=" nav-ul ">
                     <li className="nav-li nav-link  text-black font-weight-bold">Benefits</li>
                     <li className="nav-li nav-link text-black font-weight-bold">Features

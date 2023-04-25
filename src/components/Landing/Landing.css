@@ -7,6 +7,7 @@
     .heading{
         font-size: 50px;
         font-weight: 900;
+        display: none;
     }
 
     .paragraphs{

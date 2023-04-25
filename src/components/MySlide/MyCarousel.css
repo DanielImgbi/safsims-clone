@@ -1,0 +1,11 @@
+.my-carousel{
+    width: 100%;
+    background-color: transparent;
+}
+.sub-slide{
+    width: 50%;
+}
+
+.sub-slide img{
+    width: 100%;
+}
