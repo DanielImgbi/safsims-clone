@@ -1,0 +1,57 @@
+<Carousel
+      autoPlay
+      infiniteLoop
+      showArrows={false}
+      renderIndicator={(onClickHandler, isSelected, index, label) => {
+        const defStyle = { marginLeft: 20, color: "white", cursor: "pointer" };
+        const style = isSelected
+          ? { ...defStyle, color: "red" }
+          : { ...defStyle };
+        return (
+          <span
+            style={style}
+            onClick={onClickHandler}
+            onKeyDown={onClickHandler}
+            value={index}
+            key={index}
+            role="button"
+            tabIndex={0}
+            aria-label={`${label} ${index + 1}`}
+          >
+            {"cust " + index}
+          </span>
+        );
+      }}
+    >
+      <div>
+        <img src={"1.jpeg"} />
+      </div>
+      <div>
+        <img src={"2.jpeg"} />
+      </div>
+      <div>
+        <img src={"3.jpeg"} />
+      </div>
+    </Carousel>
+);
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+ <CarouselWrapper
+      sx={{ marginTop: "124px", maxHeight: "486px", minHeight: "150px" }}
+    >
+      <Carousel autoPlay infiniteLoop showArrows={false}>
+        <div>
+          <Image src={image1} />
+        </div>
+        <div>
+          <Image src={image1} />
+        </div>
+        <div>
+          <Image src={image1} />
+        </div>
+      </Carousel>
+    </CarouselWrapper>

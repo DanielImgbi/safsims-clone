@@ -14,11 +14,11 @@ const Landing = () => {
                       A stress-free Way to <br/>Manage Your School
                   </h1>
 
-                  <p className='parragraphs'>
+                  <p className='paragraphs'>
                     Our state-of-the-art school management software is specifically designed for the unique needs of schools. 
                   </p>
 
-                  <p className='parragraphs'>
+                  <p className='paragraphs'>
                     Managing primary and secondary schools has never been easier! With SAFSIMS,
                     you can now confidently focus on what truly matters while relieving yourself of the workload
                     of day-to-day administrative tasks
